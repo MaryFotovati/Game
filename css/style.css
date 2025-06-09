@@ -1,0 +1,80 @@
+
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 1rem;
+      font-family: 'Tahoma', sans-serif;
+      background: linear-gradient(to bottom,black,#550000);
+      color:aliceblue;
+    }
+    
+    h1{
+      color: #f05d5d;
+    }
+
+    header{
+      border: 1px solid #bdf2cf;
+      border-radius: 2rem;
+      text-align: center;
+      padding: 2rem;
+    }
+    
+    footer{
+      height: 5rem;
+      margin: 1rem;
+      background: linear-gradient(90deg in oklab, rgb(188, 241, 173), rgb(106,222,106));
+      color: #000000;
+      text-align: center;
+      border-radius: 1rem;
+    }
+
+    ul{
+      margin: 8rem;
+      list-style-type: none;
+    }
+
+    .item-list{
+      width: 90%;
+      height: 10%;
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: black;
+    }
+
+    #introduction{
+      margin: 5rem;
+      border: 1px solid #bdf2cf;
+      background-color: rgb(231, 144, 44);
+      display: block;
+    }
+
+    #manufacturer{
+      margin: 5rem;
+      border: 1px solid #bdf2cf;
+      background-color: rgb(147, 231, 44);
+      display: block;
+    }
+
+    #information{
+      margin: 5rem;
+      border: 1px solid #bdf2cf;
+      background-color: rgb(229, 97, 200);
+      display: block;
+    }
+
+    #main-game{
+      margin: 5rem;
+      border: 1px solid #bdf2cf;
+      background-color: rgb(243, 104, 104);
+      display: block;
+    }
+
+    footer > a {
+      color: #f82525;
+      padding-top: 1rem;
+      display:block;
+    }
